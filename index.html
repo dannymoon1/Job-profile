@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+   <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- profile container -->
+  <article class="profile-card" role="region" aria-labelledby="profile-name" data-testid="test-profile-card">
+    <!-- profile name -->
+    <header id="profile-name" class="profile-name" data-testid="test-user-name" aria-label="User name">Daniel Joseph</header>
+    <!-- profile bio -->
+     <p class="profile-bio" data-testid="test-user-bio">
+        A frontEnd developer passionate about building accessible, <br>responsive interfaces with modern web technologies <br> | Open for deals and colabs.
+      </p>
+      <div id="current-time"  data-testid="test-user-time"></div>
+<!-- profile image -->
+      <figure>
+      <img
+        src="ChatGPT Image Oct 16, 2025, 08_00_38 PM.png"
+        alt="User profile photo"
+        class="profile-img"
+        data-testid="test-user-avatar"
+      />
+</figure>
+      <!-- social icons -->
+      <ul class="profile-socials" data-testid="test-user-social-links">
+       <li> <a href="#" aria-label="GitHub profile" data-testid="test-user-social-github"><i class="ri-github-fill"></i></a></li>
+        <li><a href="#" aria-label="Twitter profile" data-testid="test-user-social-twitter"><i class="ri-twitter-x-line"></i></a></li>
+        <li><a href="#" aria-label="LinkedIn profile" data-testid="test-user-social-linkedin"><i class="ri-linkedin-box-fill"></i></a></li>
+      <ul>
+        <!-- hobbies/dislikes -->
+<section class="hobbies-dislikes-list" data-testid="test-user-hobbies">Hobbies</section>
+    <ul>
+        <li>coding</li>
+        <li>yaping</li>
+    </ul>
+   
+    <section class="hobbies-dislikes-list" data-testid="test-user-dislikes">Dislikes</section>
+     <ul>
+        <li>power outage</li>
+        <li>disappointment</li>
+    </ul>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
